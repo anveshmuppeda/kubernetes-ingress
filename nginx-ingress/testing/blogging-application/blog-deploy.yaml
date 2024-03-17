@@ -15,5 +15,5 @@ spec:
         app: blogging-application
     spec:
       containers:
-      - name: nginx-container
-        image: nginx:latest
+      - name: blog-container
+        image: anvesh35/blogging-application:v1.0.0

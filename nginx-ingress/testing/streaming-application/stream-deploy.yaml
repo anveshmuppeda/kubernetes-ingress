@@ -15,5 +15,5 @@ spec:
         app: streaming-application
     spec:
       containers:
-      - name: nginx-container
-        image: nginx:latest
+      - name: stream-container
+        image: anvesh35/streaming-application:v1.0.0
