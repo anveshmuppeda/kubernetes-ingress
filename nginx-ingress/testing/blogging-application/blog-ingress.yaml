@@ -11,7 +11,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /testing
+      - path: /blogging
         pathType: Prefix
         backend:
           service:
