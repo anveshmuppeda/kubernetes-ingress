@@ -1,7 +1,4 @@
-# kubernetes-ingress
-Kubernetes Ingress  
-
-# Docker Login Page [![GitHub](https://img.shields.io/github/license/anveshmuppeda/kubernetes-ingress?color=blue)](https://github.com/anveshmuppeda/kubernetes-ingress/blob/main/LICENSE)
+# Kubernetes Ingress [![GitHub](https://img.shields.io/github/license/anveshmuppeda/kubernetes-ingress?color=blue)](https://github.com/anveshmuppeda/kubernetes-ingress/blob/main/LICENSE)
 
 
 ## Project Maintainers & Contributors  
