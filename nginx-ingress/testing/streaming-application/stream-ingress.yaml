@@ -1,7 +1,9 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: minimal-ingress
+  name: streaming-ingress
+  labels:
+    app: streaming-application
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
@@ -9,10 +11,10 @@ spec:
   rules:
   - http:
       paths:
-      - path: /testing
+      - path: /streaming
         pathType: Prefix
         backend:
           service:
-            name: nginx-svc
+            name: streaming-svc
             port:
               number: 80

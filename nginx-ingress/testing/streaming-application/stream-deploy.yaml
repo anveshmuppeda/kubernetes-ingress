@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stream-app
+  labels:
+    app: streaming-application
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: streaming-application
+  template:
+    metadata:
+      labels:
+        app: streaming-application
+    spec:
+      containers:
+      - name: nginx-container
+        image: nginx:latest
