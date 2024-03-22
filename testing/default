@@ -1,0 +1,18 @@
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
+    root /usr/share/nginx/html;
+    index index.html index.htm;
+
+    server_name _;
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    location ~ \.css$ {
+        try_files $uri =404;
+        # Optional: Set appropriate MIME type for CSS files
+        # add_header Content-Type text/css;
+    }
+}

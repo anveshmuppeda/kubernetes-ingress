@@ -17,3 +17,4 @@ spec:
       containers:
       - name: blog-container
         image: anvesh35/blogging-application:v2.0.0
+        # image: nginx
