@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: stream-container
-        image: anvesh35/streaming-application:v2.0.0
+        image: anvesh35/streaming-application:v3.0.0
