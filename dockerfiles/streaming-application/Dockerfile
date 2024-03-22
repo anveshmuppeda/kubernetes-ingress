@@ -8,7 +8,7 @@ RUN  apt-get -y update && apt-get -y install nginx
 
 #copying files
 COPY default /etc/nginx/sites-available/default
-COPY index.html /usr/share/nginx/html/index.html
+COPY . /usr/share/nginx/html/index.html
 
 #exposing the port
 EXPOSE 80
