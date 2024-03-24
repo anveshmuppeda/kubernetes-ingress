@@ -11,7 +11,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - http:
+  - # host: "http://<your-domain.com>"
+    http:
       paths:
       - # path: /blogz
         # The below one is used to manage static files 

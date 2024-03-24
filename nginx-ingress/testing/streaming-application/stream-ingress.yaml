@@ -10,7 +10,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - http:
+  - # host: "http://<your-domain.com>"
+    http:
       paths:
       - path: /streaming/(.*)
         pathType: Prefix
