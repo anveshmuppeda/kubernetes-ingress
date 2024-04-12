@@ -6,10 +6,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - anvesh.com
+    - my-self-signed-domain.com
     secretName: self-signed-tls
   rules:
-  - host: anvesh.com
+  - host: my-self-signed-domain.com
     http:
       paths:
       - backend:

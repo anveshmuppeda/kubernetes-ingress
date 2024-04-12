@@ -4,7 +4,6 @@ metadata:
   name: blogging-ingress
   labels:
     app: blogging-application
-  namespace: testing
   annotations:
     nginx.ingress.kubernetes.io/add-base-url: "true"
     nginx.ingress.kubernetes.io/rewrite-target: /$1
