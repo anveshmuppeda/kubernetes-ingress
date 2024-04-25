@@ -8,13 +8,13 @@ Ingress is a Kubernetes resource that provides external access to services withi
 
 That's where this blog series comes in. We'll break down the concepts behind Kubernetes Ingress, explore its various capabilities, and guide you through practical examples and best practices. Whether you're a Kubernetes novice or a seasoned pro, our goal is to demystify Ingress and empower you to harness its full potential.  
 
-In the upcoming posts, we'll cover topics such as:  
-
-1. **An Introduction to Kubernetes Ingress**: Understanding the basics of Ingress and its role in Kubernetes networking.  
-2. **Ingress Controllers**: Exploring different types of Ingress controllers and how they integrate with Kubernetes clusters.   
-3. **Routing Traffic with Ingress Rules**: Leveraging Ingress resources to define routing rules and manage traffic flow.  
-4. **Securing Ingress with TLS**: Implementing Transport Layer Security (TLS) encryption for secure communication.  
-5. **Advanced Ingress Features**: Delving into advanced capabilities such as path-based routing, rewrite rules, and load balancing.  
+## Blogs List  
+PART 1: [⎈ Mastering Kubernetes Ingress ⎈](https://medium.com/@muppedaanvesh/mastering-kubernetes-ingress-2c86ae412e79)  
+PART 2: [⎈ A Hands-On Guide to Kubernetes Ingress Nginx PART-2 🚀](https://medium.com/@muppedaanvesh/a-hands-on-guide-to-kubernetes-ingress-nginx-7c4c5b45eb89)  
+PART 3: [🛤️ Exploring Types of Routing-Based Ingresses in Kubernetes ⎈](https://medium.com/@muppedaanvesh/%EF%B8%8F-exploring-types-of-routing-based-ingresses-in-kubernetes-da56f51b3a6b)  
+PART 4: [🔒 Secure Your Kubernetes Apps: Hands-On Basic Authentication with Ingress ⎈](https://medium.com/@muppedaanvesh/secure-your-kubernetes-apps-hands-on-basic-authentication-with-ingress-55bc6dfeb1e5)  
+PART 5: [🛡️ Kubernetes Ingress - HTTP to HTTPS with Self-Signed Certificates 🔐](https://medium.com/@muppedaanvesh/%EF%B8%8F-kubernetes-ingress-transitioning-to-https-with-self-signed-certificates-0c7ab0231e76)  
+PART 6: 🐤 Implementing Canary Deployment in Kubernetes ⎈
 
 Whether you're deploying applications in a production environment or experimenting with Kubernetes in a sandbox, understanding Ingress is essential for managing external access efficiently. Join us on this journey as we unravel the complexities of Kubernetes Ingress and empower you to build resilient and scalable applications in Kubernetes environments.  
 
