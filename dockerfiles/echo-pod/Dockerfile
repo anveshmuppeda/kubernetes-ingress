@@ -1,5 +1,5 @@
 # Use a lightweight Nginx base image
-FROM nginx
+FROM nginx:alpine
 
 # # Install bash for dynamic script execution
 # RUN apt-get update && apt-get install -y bash

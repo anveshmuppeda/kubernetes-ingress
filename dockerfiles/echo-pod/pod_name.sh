@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Get the hostname (which is the pod name in Kubernetes)
 POD_NAME=$(hostname)
