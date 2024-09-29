@@ -1,7 +1,9 @@
 # echo-pod-name  
 **Echo Pod Name** is a lightweight Docker image based on Nginx and Alpine, designed to display the Kubernetes pod name and node name dynamically on a web page. It is a simple tool for developers and operators to verify their Kubernetes setup and to provide quick insights into pod information.  
 
+<div style="text-align: center;">
 <img src="./echo-pod-name.png" alt="echo pod name" width="500"/>  
+</div>
 
 ## Features  
 * Displays the Pod Name and Node Name dynamically based on the environment.  
