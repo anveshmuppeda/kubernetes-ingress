@@ -1,4 +1,5 @@
 #!/bin/sh
+## Change to bash if your using nginx image, since alpine uses sh I am using /bin/sh
 
 # Get the hostname (which is the pod name in Kubernetes)
 POD_NAME=$(hostname)
