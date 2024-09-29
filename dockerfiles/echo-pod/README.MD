@@ -3,6 +3,7 @@
 
 ![echo-pod-name](echo-pod-name.png)
 
+<img src="./echo-pod-name.png" alt="echo pod name" width="300"/>
 ## Features  
 * Displays the Pod Name and Node Name dynamically based on the environment.  
 * Uses a lightweight base image (nginx:alpine) for fast startup and reduced resource usage.  
