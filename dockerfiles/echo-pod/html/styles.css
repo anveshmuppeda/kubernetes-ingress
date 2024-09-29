@@ -39,15 +39,19 @@ body {
     padding: 20px; /* Space inside the box */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     margin: 20px auto; /* Center the box with margin */
+    width: fit-content; /* Allow width to adjust based on content */
     max-width: 90%; /* Max width to prevent overflow */
-    width: auto; /* Allow width to adjust based on content */
-    display: inline-block; /* Adjust box width based on content */
 }
 
 .welcome-message, .node-name, .pod-name {
     font-size: 20px; /* Font size for all messages */
     color: #333; /* Text color for contrast */
     margin: 10px 0; /* Margin for spacing */
+}
+
+.welcome-message {
+    font-size: 20px; /* Font size for all messages */
+    font-weight: bold;
 }
 
 #footer {
