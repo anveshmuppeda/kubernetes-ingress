@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: base-app
-        image: anvesh35/echo-pod-name:v4.0.0
+        image: anvesh35/echo-pod-name:v5.0.0
         ports:
           - containerPort: 80
         env:

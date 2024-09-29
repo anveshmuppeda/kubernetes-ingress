@@ -1,8 +1,8 @@
-# Use Nginx as the base image
-FROM nginx:latest
+# Use a lightweight Nginx base image
+FROM nginx:alpine
 
-# Install bash for dynamic script execution
-RUN apt-get update && apt-get install -y bash
+# # Install bash for dynamic script execution
+# RUN apt-get update && apt-get install -y bash
 
 # Copy the HTML, CSS, and image files to the nginx html directory
 COPY ./html /usr/share/nginx/html
