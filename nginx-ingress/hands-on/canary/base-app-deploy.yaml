@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: base-app
+  name: echo-pod
 spec:
   replicas: 1
   selector:
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: base-app
-        image: anvesh35/echo-pod-name:v5.0.0
+        image: anvesh35/echo-pod-name
         ports:
           - containerPort: 80
         env:
