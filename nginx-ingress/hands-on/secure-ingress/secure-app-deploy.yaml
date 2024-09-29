@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: blog-app
+  name: secure-echo-pod
   labels:
     app: secure-app
 spec:
@@ -15,5 +15,5 @@ spec:
         app: secure-app
     spec:
       containers:
-      - name: blog-container
+      - name: echo-pod
         image: anvesh35/echo-pod-name
