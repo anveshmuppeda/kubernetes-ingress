@@ -1,0 +1,2 @@
+# Securing the Ingress Using Cert-Manager  
+To secure your Ingress Resources, you’ll install Cert-Manager, create a ClusterIssuer for production, and modify the configuration of your Ingress to use the TLS certificates. Once installed and configured, your app will be running behind HTTPS.  

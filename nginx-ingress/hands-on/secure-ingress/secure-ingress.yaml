@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: secure-app-ingress
+  labels:
+    app: secure-app
+  annotations:
+    cert-manager.io/issuer: letsencrypt-nginx-cert
+spec:
+  tls:
+  - hosts:
+    - myblogs.101xdev.com
+    secretName: letsencrypt-nginx-cert
+  ingressClassName: nginx
+  rules:
+  - host: "myblogs.101xdev.com"
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: secure-app-svc
+            port:
+              number: 80
