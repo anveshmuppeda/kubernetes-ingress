@@ -15,5 +15,12 @@ spec:
         app: secure-app
     spec:
       containers:
-      - name: echo-pod
+      - name: echo-app
         image: anvesh35/echo-pod-name
+        ports:
+          - containerPort: 80
+        env:
+        - name: NODE_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: spec.nodeName
