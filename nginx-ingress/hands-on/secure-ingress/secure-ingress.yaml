@@ -9,11 +9,11 @@ metadata:
 spec:
   tls:
   - hosts:
-    - myblogs.101xdev.com
-    secretName: letsencrypt-nginx-cert
+    - echopod.muppedaanvesh.com
+    secretName: letsencrypt-nginx-cert-echopod
   ingressClassName: nginx
   rules:
-  - host: "myblogs.101xdev.com"
+  - host: "echopod.muppedaanvesh.com"
     http:
       paths:
       - path: /
