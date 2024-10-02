@@ -15,6 +15,7 @@ PART 3: [🛤️ Exploring Types of Routing-Based Ingresses in Kubernetes ⎈](h
 PART 4: [🔒 Secure Your Kubernetes Apps: Hands-On Basic Authentication with Ingress ⎈](https://medium.com/@muppedaanvesh/secure-your-kubernetes-apps-hands-on-basic-authentication-with-ingress-55bc6dfeb1e5)  
 PART 5: [🛡️ Kubernetes Ingress - HTTP to HTTPS with Self-Signed Certificates 🔐](https://medium.com/@muppedaanvesh/%EF%B8%8F-kubernetes-ingress-transitioning-to-https-with-self-signed-certificates-0c7ab0231e76)  
 PART 6: [🐤 Implementing Canary Deployment in Kubernetes ⎈](https://medium.com/@muppedaanvesh/implementing-canary-deployment-in-kubernetes-0be4bc1e1aca)  
+PART 7: [🛡️ Kubernetes Ingress - Securing the Ingress Using Cert-Manager: PART-7 🔐](https://medium.com/@muppedaanvesh/%EF%B8%8F-kubernetes-ingress-securing-the-ingress-using-cert-manager-part-7-366f1f127fd6)
 
 Whether you're deploying applications in a production environment or experimenting with Kubernetes in a sandbox, understanding Ingress is essential for managing external access efficiently. Join us on this journey as we unravel the complexities of Kubernetes Ingress and empower you to build resilient and scalable applications in Kubernetes environments.  
 
